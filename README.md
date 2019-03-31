@@ -8,13 +8,15 @@ pip3 install textblob
 
 RUN
 ====================================
-1. run sub from one window
+1. update config.py file with appropriate info
+
+2. run sub from one window
 
 export PYTHONPATH=.
 python3 ./sub.py
 
 
-2. run pub from another
+3. run pub from another
 
 export PYTHONPATH=.
 python3 ./pub.py
