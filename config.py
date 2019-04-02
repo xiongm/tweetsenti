@@ -6,5 +6,5 @@ ACCESS_TOKEN_SECRET = 'access_token_secrete'
 PLOT_STYLE="fivethirtyeight"
 PLOT_Y_LABEL="sentiment"
 PLOT_X_LABEL="time sequence"
-CHART_WINDOW_SIZE=100
+CHART_WINDOW_SIZE=50
 
