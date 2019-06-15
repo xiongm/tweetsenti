@@ -10,7 +10,7 @@ pip3 install textblob
 1. make sure conifg.py has correct twitter api keys/secrets
 2. Enable docker to run GUI interface by following instructions [here](https://cntnr.io/running-guis-with-docker-on-mac-os-x-a14df6a76efc)
    * brew install socat 
-   * socat TCP-LISTEN:6000,reuseaddr,fork UNIX-CLIENT:\\\"$DISPLAY\\\"
+   * socat TCP-LISTEN:6000,reuseaddr,fork UNIX-CLIENT:\\"$DISPLAY\\"
    * brew install xquartz
    * open -a xquartz
    * check security->“allow connections from network clients”
