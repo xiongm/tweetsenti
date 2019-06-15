@@ -1,11 +1,5 @@
 # Tweetsenti
 
-## PREREQUISITE
-sudo apt-get install -y python3-tk, rabbitmq-server
-pip3 install tweepy
-pip3 install textblob
-
-
 ## Getting Started
 1. make sure conifg.py has correct twitter api keys/secrets
 2. Enable docker to run GUI interface by following instructions [here](https://cntnr.io/running-guis-with-docker-on-mac-os-x-a14df6a76efc)
@@ -26,5 +20,5 @@ Navigate to root repo directory
 
 
 ## Run tweetsenti
-`cd /tweetsenti`
+`cd /tweetsenti`  
 `python3 ./pubsub.py`
