@@ -13,9 +13,7 @@
 
 ## Starting container
 Navigate to root repo directory
-
-`docker build --no-cache . --tag tweetsenti`
-
+`docker build --no-cache . --tag xiongm/tweetsenti`  
 `docker run -it --rm -e DISPLAY=192.168.1.17:0 -v /tmp/.X11-unix/:/tmp/.X11-unix/ --mount type=bind,source="$PWD",target=/tweetsenti xiongm/tweetsenti:latest`
 
 
